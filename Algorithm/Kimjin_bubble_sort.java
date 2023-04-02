@@ -29,6 +29,20 @@ public class Kimjin_bubble_sort{
                 }
             }
         }
+        // for(int i=0; i<number.length; i++){
+        //     for(int j=0; j<i; j++){
+        //         if(number[j]>number[j+1]){
+        //             min=number[j+1];
+        //             number[j+1]=number[j];
+        //             number[j]=min;
+        //             count++;
+        //         }
+        //         if(k==count){
+        //             System.out.printf("%d %d", number[j], number[j+1]);
+        //             return;
+        //         }
+        //     }
+        // }
         System.out.println(-1);
     }
 }
