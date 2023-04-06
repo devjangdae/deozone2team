@@ -2,12 +2,6 @@
 
 import java.util.Calendar;
 
-/*
-Transaction은 Account에 포함된다.
-거래내역은 반드시 Account가 하나 있어야 하고, 
-Account는 거래내역이 있어도 되고, 없어도 된다.
-
- */
 public class Transaction {
 	private String transactionDate;
 	private String transactionTime;
@@ -40,9 +34,7 @@ public class Transaction {
 		this.transactionDate = year+"년"+month+"월"+day+"일";
 		return transactionDate;
 	}
-//	public void setTransactionDate(String transactionDate) {
-//		this.transactionDate = transactionDate;
-//	}
+
 	public String getTransactionTime() {
 		Calendar now = Calendar.getInstance();
 		int hour = now.get(Calendar.HOUR);
@@ -50,9 +42,7 @@ public class Transaction {
 		
 		return hour+"시"+minute+"분";
 	}
-//	public void setTransactionTime(String transactionTime) {
-//		this.transactionTime = transactionTime;
-//	}
+
 	public String getKind() {
 		return kind;
 	}
