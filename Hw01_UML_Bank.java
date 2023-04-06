@@ -62,7 +62,7 @@ public class Hw01_UML_Bank {
         for (int i = 0; i < kimTransaction.size(); i++) {
             System.out.println(kimTransaction.get(i));
         }
-
+//123123
         System.out.println("\n***계좌번호가 1111인 계좌에 잔고 초과해서 출금시도해보기***");
         kim.withdraw(100000);
     }

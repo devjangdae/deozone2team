@@ -1,12 +1,10 @@
-
-
 import java.util.Calendar;
 
 /*
 Transaction은 Account에 포함된다.
 거래내역은 반드시 Account가 하나 있어야 하고, 
 Account는 거래내역이 있어도 되고, 없어도 된다.
-
+dddddd
  */
 public class Transaction {
 	private String transactionDate;
