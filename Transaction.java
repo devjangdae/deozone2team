@@ -32,6 +32,7 @@ public class Transaction {
 	}
 	
 	
+
 	public String getTransactionDate() {
 		Calendar now = Calendar.getInstance();
 		int year = now.get(Calendar.YEAR);
